@@ -45,7 +45,7 @@ public class RaketsFetch {
         return new String(getUrlBytes(urlSpec));
     }
 
-    public void fetchItems() {
+   /* public void fetchItems() {
         try {
             String url = Uri.parse("https://api.spacexdata.com/v2/launches?launch_year=2017")
                     .buildUpon()
@@ -62,5 +62,5 @@ public class RaketsFetch {
         } catch (IOException ioe) {
             Log.e(TAG, "Failed to fetch items ", ioe);
         }
-    }
+    }*/
 }
